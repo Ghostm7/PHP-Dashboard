@@ -1,0 +1,53 @@
+/* Reset some default styles */
+body, ul, li {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+/* Basic styles for body */
+body {
+    font-family: 'Courier New', Courier, monospace;
+    background-color: #f4f4f4;
+}
+
+/* Navigation bar styles */
+nav {
+    background-color: #a31919;
+    padding: 10px 0;
+}
+
+/* Unordered list inside nav */
+nav ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* List items inside nav */
+nav ul li {
+    margin: 0 15px;
+}
+
+/* Links inside nav */
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    padding: 8px 15px;
+    display: block;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+/* Hover effect for links */
+nav ul li a:hover {
+    background-color: #4b2020;
+}
+
+/* Active link styling (if needed) */
+nav ul li a.active {
+    background-color: #04AA6D;
+}
+
+
+
