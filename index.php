@@ -15,7 +15,7 @@ body, html {
 }
 
 .background-cover {
-    background-image: url('img/carwallpaper.jpg');
+    background-image: url('img/carw.jpg');
     background-size: cover;
     background-position: center;
     height: 100vh; /* Full viewport height */
